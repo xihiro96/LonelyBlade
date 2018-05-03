@@ -1,0 +1,3 @@
+/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles/SFMLDemo.dir
