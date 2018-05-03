@@ -29,6 +29,7 @@ file(COPY "Images/Cutscenes/Sprites/Ryoma_Damaged.png" DESTINATION "${CMAKE_BINA
 file(COPY "Images/Cutscenes/Sprites/niles.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "Images/Cutscenes/Sprites/barStranger.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "Images/Cutscenes/Sprites/islandMan.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "Images/Cutscenes/Sprites/samurai.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "Images/Cutscenes/Background/deathForest.jpg" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "Images/Cutscenes/Background/mop.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "Images/Cutscenes/Background/bleach.jpeg" DESTINATION "${CMAKE_BINARY_DIR}")
