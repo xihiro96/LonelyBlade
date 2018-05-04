@@ -106,8 +106,12 @@ GameState runBattle1(sf::RenderWindow * window) {
     sf::Texture textureTest;
     textureTest.loadFromFile("player.png");
 
+    sf::Texture pigTexture;
+    pigTexture.loadFromFile("pig.png");
+
     //DUMMY CHAR FOR ALLY/ENEMY INIT
     Character dummyChar(true,&textureTest);
+    Character pig(true, &pigTexture);
 
     //set party number for specific member turn check--useful for member and target select
     allyteam.push_back(Character(ally1Xpos, Ystart, 100, 100, ally1DefMoves, ally1OffMoves, &textureTest, sf::Vector2u(3,4), 0.3f, 100.0f, &dummyChar));
@@ -151,11 +155,11 @@ GameState runBattle1(sf::RenderWindow * window) {
     //    enemy1OffMoves.push_back(Move());
     //}
 
-    enemyteam.push_back(Character(enemy1Xpos, Ystart, 100, 100, enemy1DefMoves, enemy1OffMoves, &textureTest, sf::Vector2u(3,4), 0.3f, 100.0f, &dummyChar));
+    enemyteam.push_back(Character(enemy1Xpos, Ystart, 100, 100, enemy1DefMoves, enemy1OffMoves, &pigTexture, sf::Vector2u(3,4), 0.3f, 100.0f, &pig));
     enemyteam.back().setPartyNumber(enemyteam.size()-1);
-    enemyteam.push_back(Character(enemy1Xpos - Xoffset, Ystart + Ygap, 100, 100, enemy1DefMoves, enemy1OffMoves, &textureTest, sf::Vector2u(3,4), 0.3f, 100.0f, &dummyChar));
+    enemyteam.push_back(Character(enemy1Xpos - Xoffset, Ystart + Ygap, 100, 100, enemy1DefMoves, enemy1OffMoves, &pigTexture, sf::Vector2u(3,4), 0.3f, 100.0f, &pig));
     enemyteam.back().setPartyNumber(enemyteam.size()-1);
-    enemyteam.push_back(Character(enemy1Xpos, Ystart + 2 * Ygap, 100, 100, enemy1DefMoves, enemy1OffMoves, &textureTest, sf::Vector2u(3,4), 0.3f, 100.0f, &dummyChar));
+    enemyteam.push_back(Character(enemy1Xpos, Ystart + 2 * Ygap, 100, 100, enemy1DefMoves, enemy1OffMoves, &pigTexture, sf::Vector2u(3,4), 0.3f, 100.0f, &pig));
     enemyteam.back().setPartyNumber(enemyteam.size()-1);
 
     for (int i = 0; i < enemyteam.size(); ++i) {

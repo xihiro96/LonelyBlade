@@ -55,6 +55,7 @@ file(COPY "AudioFiles/Cutscenes/select1.wav" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "AudioFiles/Cutscenes/mainMenu.wav" DESTINATION "${CMAKE_BINARY_DIR}")
 
 file(COPY "Images/Battles/Sprites/player.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "Images/Battles/Sprites/pig.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "Images/Battles/Sprites/sword.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "Images/Battles/Sprites/sword2.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "Images/Battles/Sprites/boomerang.png" DESTINATION "${CMAKE_BINARY_DIR}")
