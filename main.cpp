@@ -4,10 +4,11 @@
 #include "Scenes/Scene4.h"
 #include "Menus/Menu.h"
 #include "Menus/Credits.h"
+#include "GamePlay/RunBattle.h"
 int main() {
     sf::RenderWindow window(sf::VideoMode(1920, 1080), "Lonely Blade IV", sf::Style::Default); //create 1080p window with close button
     window.setVerticalSyncEnabled(true); //game will update according to graphics card settings
-    GameState gameState = mainMenu;
+    GameState gameState = playGame;
     sf::Clock sceneClock;
     Menu menu(window.getSize().x, window.getSize().y);
     bool runningGame = true;
@@ -15,6 +16,9 @@ int main() {
     while(runningGame) {
 
         switch (gameState) {
+            case playGame:
+                runBattle1(&window);
+                break;
             case mainMenu:
                 gameState = menu.runMenu(menu, &window);
                 break;

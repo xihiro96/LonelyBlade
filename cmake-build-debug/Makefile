@@ -48,10 +48,10 @@ RM = /home/mhendrix/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mhendrix/CLionProjects/LonelyBlade
+CMAKE_SOURCE_DIR = /home/mhendrix/Merge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mhendrix/Merge/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mhendrix/Merge/cmake-build-debug/CMakeFiles /home/mhendrix/Merge/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mhendrix/Merge/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,168 @@ SFMLDemo: cmake_check_build_system
 SFMLDemo/fast:
 	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/build
 .PHONY : SFMLDemo/fast
+
+GamePlay/Animation.o: GamePlay/Animation.cpp.o
+
+.PHONY : GamePlay/Animation.o
+
+# target to build an object file
+GamePlay/Animation.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o
+.PHONY : GamePlay/Animation.cpp.o
+
+GamePlay/Animation.i: GamePlay/Animation.cpp.i
+
+.PHONY : GamePlay/Animation.i
+
+# target to preprocess a source file
+GamePlay/Animation.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.i
+.PHONY : GamePlay/Animation.cpp.i
+
+GamePlay/Animation.s: GamePlay/Animation.cpp.s
+
+.PHONY : GamePlay/Animation.s
+
+# target to generate assembly for a file
+GamePlay/Animation.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.s
+.PHONY : GamePlay/Animation.cpp.s
+
+GamePlay/MoveButton.o: GamePlay/MoveButton.cpp.o
+
+.PHONY : GamePlay/MoveButton.o
+
+# target to build an object file
+GamePlay/MoveButton.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o
+.PHONY : GamePlay/MoveButton.cpp.o
+
+GamePlay/MoveButton.i: GamePlay/MoveButton.cpp.i
+
+.PHONY : GamePlay/MoveButton.i
+
+# target to preprocess a source file
+GamePlay/MoveButton.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.i
+.PHONY : GamePlay/MoveButton.cpp.i
+
+GamePlay/MoveButton.s: GamePlay/MoveButton.cpp.s
+
+.PHONY : GamePlay/MoveButton.s
+
+# target to generate assembly for a file
+GamePlay/MoveButton.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.s
+.PHONY : GamePlay/MoveButton.cpp.s
+
+GamePlay/MoveMenu.o: GamePlay/MoveMenu.cpp.o
+
+.PHONY : GamePlay/MoveMenu.o
+
+# target to build an object file
+GamePlay/MoveMenu.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o
+.PHONY : GamePlay/MoveMenu.cpp.o
+
+GamePlay/MoveMenu.i: GamePlay/MoveMenu.cpp.i
+
+.PHONY : GamePlay/MoveMenu.i
+
+# target to preprocess a source file
+GamePlay/MoveMenu.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.i
+.PHONY : GamePlay/MoveMenu.cpp.i
+
+GamePlay/MoveMenu.s: GamePlay/MoveMenu.cpp.s
+
+.PHONY : GamePlay/MoveMenu.s
+
+# target to generate assembly for a file
+GamePlay/MoveMenu.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.s
+.PHONY : GamePlay/MoveMenu.cpp.s
+
+GamePlay/RunBattle.o: GamePlay/RunBattle.cpp.o
+
+.PHONY : GamePlay/RunBattle.o
+
+# target to build an object file
+GamePlay/RunBattle.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o
+.PHONY : GamePlay/RunBattle.cpp.o
+
+GamePlay/RunBattle.i: GamePlay/RunBattle.cpp.i
+
+.PHONY : GamePlay/RunBattle.i
+
+# target to preprocess a source file
+GamePlay/RunBattle.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.i
+.PHONY : GamePlay/RunBattle.cpp.i
+
+GamePlay/RunBattle.s: GamePlay/RunBattle.cpp.s
+
+.PHONY : GamePlay/RunBattle.s
+
+# target to generate assembly for a file
+GamePlay/RunBattle.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.s
+.PHONY : GamePlay/RunBattle.cpp.s
+
+GamePlay/character.o: GamePlay/character.cpp.o
+
+.PHONY : GamePlay/character.o
+
+# target to build an object file
+GamePlay/character.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o
+.PHONY : GamePlay/character.cpp.o
+
+GamePlay/character.i: GamePlay/character.cpp.i
+
+.PHONY : GamePlay/character.i
+
+# target to preprocess a source file
+GamePlay/character.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.i
+.PHONY : GamePlay/character.cpp.i
+
+GamePlay/character.s: GamePlay/character.cpp.s
+
+.PHONY : GamePlay/character.s
+
+# target to generate assembly for a file
+GamePlay/character.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.s
+.PHONY : GamePlay/character.cpp.s
+
+GamePlay/move.o: GamePlay/move.cpp.o
+
+.PHONY : GamePlay/move.o
+
+# target to build an object file
+GamePlay/move.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o
+.PHONY : GamePlay/move.cpp.o
+
+GamePlay/move.i: GamePlay/move.cpp.i
+
+.PHONY : GamePlay/move.i
+
+# target to preprocess a source file
+GamePlay/move.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.i
+.PHONY : GamePlay/move.cpp.i
+
+GamePlay/move.s: GamePlay/move.cpp.s
+
+.PHONY : GamePlay/move.s
+
+# target to generate assembly for a file
+GamePlay/move.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.s
+.PHONY : GamePlay/move.cpp.s
 
 Menus/Credits.o: Menus/Credits.cpp.o
 
@@ -348,6 +510,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SFMLDemo"
+	@echo "... GamePlay/Animation.o"
+	@echo "... GamePlay/Animation.i"
+	@echo "... GamePlay/Animation.s"
+	@echo "... GamePlay/MoveButton.o"
+	@echo "... GamePlay/MoveButton.i"
+	@echo "... GamePlay/MoveButton.s"
+	@echo "... GamePlay/MoveMenu.o"
+	@echo "... GamePlay/MoveMenu.i"
+	@echo "... GamePlay/MoveMenu.s"
+	@echo "... GamePlay/RunBattle.o"
+	@echo "... GamePlay/RunBattle.i"
+	@echo "... GamePlay/RunBattle.s"
+	@echo "... GamePlay/character.o"
+	@echo "... GamePlay/character.i"
+	@echo "... GamePlay/character.s"
+	@echo "... GamePlay/move.o"
+	@echo "... GamePlay/move.i"
+	@echo "... GamePlay/move.s"
 	@echo "... Menus/Credits.o"
 	@echo "... Menus/Credits.i"
 	@echo "... Menus/Credits.s"

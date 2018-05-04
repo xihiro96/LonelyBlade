@@ -7,6 +7,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o"
   "CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o"
   "CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o"
+  "CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o"
+  "CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o"
+  "CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o"
+  "CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o"
+  "CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o"
+  "CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o"
   "SFMLDemo.pdb"
   "SFMLDemo"
 )

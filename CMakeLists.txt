@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 2.8)
 project(SFMLDemo)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp Scenes/Scene1.cpp Scenes/Scene1.h MainGame.h Scenes/sharedScenes.h Scenes/shareScenes.cpp Scenes/Scene2.h Scenes/Scene2.cpp Scenes/Scene3.cpp Scenes/Scene3.h Scenes/Scene4.cpp Scenes/Scene4.h Menus/Menu.cpp Menus/Menu.h Menus/Credits.cpp Menus/Credits.h)
+set(SOURCE_FILES main.cpp Scenes/Scene1.cpp Scenes/Scene1.h MainGame.h Scenes/sharedScenes.h Scenes/shareScenes.cpp Scenes/Scene2.h Scenes/Scene2.cpp Scenes/Scene3.cpp Scenes/Scene3.h Scenes/Scene4.cpp Scenes/Scene4.h Menus/Menu.cpp Menus/Menu.h Menus/Credits.cpp Menus/Credits.h GamePlay/Animation.h GamePlay/Animation.cpp GamePlay/character.cpp GamePlay/character.h GamePlay/FillBar.h GamePlay/move.cpp GamePlay/move.h GamePlay/MoveButton.cpp GamePlay/MoveButton.h GamePlay/MoveMenu.cpp GamePlay/MoveMenu.h GamePlay/RunBattle.cpp GamePlay/RunBattle.h)
 add_executable(SFMLDemo ${SOURCE_FILES})
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
@@ -53,3 +53,13 @@ file(COPY "AudioFiles/Cutscenes/drinking.wav" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "AudioFiles/Cutscenes/knife stab.wav" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "AudioFiles/Cutscenes/select1.wav" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "AudioFiles/Cutscenes/mainMenu.wav" DESTINATION "${CMAKE_BINARY_DIR}")
+
+file(COPY "Images/Battles/Sprites/player.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "Images/Battles/Sprites/sword.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "Images/Battles/Sprites/sword2.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "Images/Battles/Sprites/boomerang.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "Images/Battles/Sprites/boomerang2.png" DESTINATION "${CMAKE_BINARY_DIR}")
+
+file(COPY "Images/Battles/Background/grass.jpg" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "Images/Battles/Background/heal.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "Images/Battles/Background/heal2.png" DESTINATION "${CMAKE_BINARY_DIR}")

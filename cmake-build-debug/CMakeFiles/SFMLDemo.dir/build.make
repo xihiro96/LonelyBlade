@@ -43,10 +43,10 @@ RM = /home/mhendrix/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mhendrix/CLionProjects/LonelyBlade
+CMAKE_SOURCE_DIR = /home/mhendrix/Merge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mhendrix/Merge/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SFMLDemo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/SFMLDemo.dir/flags.make
 
 CMakeFiles/SFMLDemo.dir/main.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
 CMakeFiles/SFMLDemo.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFMLDemo.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/main.cpp.o -c /home/mhendrix/CLionProjects/LonelyBlade/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFMLDemo.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/main.cpp.o -c /home/mhendrix/Merge/main.cpp
 
 CMakeFiles/SFMLDemo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/CLionProjects/LonelyBlade/main.cpp > CMakeFiles/SFMLDemo.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/main.cpp > CMakeFiles/SFMLDemo.dir/main.cpp.i
 
 CMakeFiles/SFMLDemo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/CLionProjects/LonelyBlade/main.cpp -o CMakeFiles/SFMLDemo.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/main.cpp -o CMakeFiles/SFMLDemo.dir/main.cpp.s
 
 CMakeFiles/SFMLDemo.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/SFMLDemo.dir/main.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir/main.
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
 CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o: ../Scenes/Scene1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o -c /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o -c /home/mhendrix/Merge/Scenes/Scene1.cpp
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene1.cpp > CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/Scenes/Scene1.cpp > CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.i
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene1.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/Scenes/Scene1.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.s
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o.provides.build: CMakeFiles/SFMLDemo.
 
 CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
 CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o: ../Scenes/shareScenes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o -c /home/mhendrix/CLionProjects/LonelyBlade/Scenes/shareScenes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o -c /home/mhendrix/Merge/Scenes/shareScenes.cpp
 
 CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/CLionProjects/LonelyBlade/Scenes/shareScenes.cpp > CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/Scenes/shareScenes.cpp > CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.i
 
 CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/CLionProjects/LonelyBlade/Scenes/shareScenes.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/Scenes/shareScenes.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.s
 
 CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o.provides.build: CMakeFiles/SFML
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
 CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o: ../Scenes/Scene2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o -c /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o -c /home/mhendrix/Merge/Scenes/Scene2.cpp
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene2.cpp > CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/Scenes/Scene2.cpp > CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.i
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene2.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/Scenes/Scene2.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.s
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o.provides.build: CMakeFiles/SFMLDemo.
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
 CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o: ../Scenes/Scene3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o -c /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o -c /home/mhendrix/Merge/Scenes/Scene3.cpp
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene3.cpp > CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/Scenes/Scene3.cpp > CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.i
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene3.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/Scenes/Scene3.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.s
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o.provides.build: CMakeFiles/SFMLDemo.
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
 CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o: ../Scenes/Scene4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o -c /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o -c /home/mhendrix/Merge/Scenes/Scene4.cpp
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene4.cpp > CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/Scenes/Scene4.cpp > CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.i
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/CLionProjects/LonelyBlade/Scenes/Scene4.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/Scenes/Scene4.cpp -o CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.s
 
 CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o.provides.build: CMakeFiles/SFMLDemo.
 
 CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
 CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o: ../Menus/Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o -c /home/mhendrix/CLionProjects/LonelyBlade/Menus/Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o -c /home/mhendrix/Merge/Menus/Menu.cpp
 
 CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/CLionProjects/LonelyBlade/Menus/Menu.cpp > CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/Menus/Menu.cpp > CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.i
 
 CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/CLionProjects/LonelyBlade/Menus/Menu.cpp -o CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/Menus/Menu.cpp -o CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.s
 
 CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir
 
 CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
 CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o: ../Menus/Credits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o -c /home/mhendrix/CLionProjects/LonelyBlade/Menus/Credits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o -c /home/mhendrix/Merge/Menus/Credits.cpp
 
 CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/CLionProjects/LonelyBlade/Menus/Credits.cpp > CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/Menus/Credits.cpp > CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.i
 
 CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/CLionProjects/LonelyBlade/Menus/Credits.cpp -o CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/Menus/Credits.cpp -o CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.s
 
 CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o.requires:
 
@@ -249,6 +249,150 @@ CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o.provides: CMakeFiles/SFMLDemo.dir/Me
 CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o
 
 
+CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
+CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o: ../GamePlay/Animation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o -c /home/mhendrix/Merge/GamePlay/Animation.cpp
+
+CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/GamePlay/Animation.cpp > CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.i
+
+CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/GamePlay/Animation.cpp -o CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.s
+
+CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o.requires:
+
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o.requires
+
+CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o.provides: CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o.provides.build
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o.provides
+
+CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o
+
+
+CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
+CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o: ../GamePlay/character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o -c /home/mhendrix/Merge/GamePlay/character.cpp
+
+CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/GamePlay/character.cpp > CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.i
+
+CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/GamePlay/character.cpp -o CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.s
+
+CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o.requires:
+
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o.requires
+
+CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o.provides: CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o.provides.build
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o.provides
+
+CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o
+
+
+CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
+CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o: ../GamePlay/move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o -c /home/mhendrix/Merge/GamePlay/move.cpp
+
+CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/GamePlay/move.cpp > CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.i
+
+CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/GamePlay/move.cpp -o CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.s
+
+CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o.requires:
+
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o.requires
+
+CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o.provides: CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o.provides.build
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o.provides
+
+CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o
+
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o: ../GamePlay/MoveButton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o -c /home/mhendrix/Merge/GamePlay/MoveButton.cpp
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/GamePlay/MoveButton.cpp > CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.i
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/GamePlay/MoveButton.cpp -o CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.s
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o.requires:
+
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o.requires
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o.provides: CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o.provides.build
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o.provides
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o
+
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o: ../GamePlay/MoveMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o -c /home/mhendrix/Merge/GamePlay/MoveMenu.cpp
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/GamePlay/MoveMenu.cpp > CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.i
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/GamePlay/MoveMenu.cpp -o CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.s
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o.requires:
+
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o.requires
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o.provides: CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o.provides.build
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o.provides
+
+CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o
+
+
+CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o: CMakeFiles/SFMLDemo.dir/flags.make
+CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o: ../GamePlay/RunBattle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o -c /home/mhendrix/Merge/GamePlay/RunBattle.cpp
+
+CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mhendrix/Merge/GamePlay/RunBattle.cpp > CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.i
+
+CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mhendrix/Merge/GamePlay/RunBattle.cpp -o CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.s
+
+CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o.requires:
+
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o.requires
+
+CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o.provides: CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SFMLDemo.dir/build.make CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o.provides.build
+.PHONY : CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o.provides
+
+CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o.provides.build: CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o
+
+
 # Object files for target SFMLDemo
 SFMLDemo_OBJECTS = \
 "CMakeFiles/SFMLDemo.dir/main.cpp.o" \
@@ -258,7 +402,13 @@ SFMLDemo_OBJECTS = \
 "CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o" \
 "CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o" \
 "CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o" \
-"CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o"
+"CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o" \
+"CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o" \
+"CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o" \
+"CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o" \
+"CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o" \
+"CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o" \
+"CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o"
 
 # External object files for target SFMLDemo
 SFMLDemo_EXTERNAL_OBJECTS =
@@ -271,6 +421,12 @@ SFMLDemo: CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o
 SFMLDemo: CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o
 SFMLDemo: CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o
 SFMLDemo: CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o
+SFMLDemo: CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o
+SFMLDemo: CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o
+SFMLDemo: CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o
+SFMLDemo: CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o
+SFMLDemo: CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o
+SFMLDemo: CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o
 SFMLDemo: CMakeFiles/SFMLDemo.dir/build.make
 SFMLDemo: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 SFMLDemo: /usr/lib/x86_64-linux-gnu/libsfml-window.so
@@ -278,7 +434,7 @@ SFMLDemo: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 SFMLDemo: /usr/lib/x86_64-linux-gnu/libsfml-network.so
 SFMLDemo: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 SFMLDemo: CMakeFiles/SFMLDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable SFMLDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mhendrix/Merge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable SFMLDemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SFMLDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -294,6 +450,12 @@ CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o.re
 CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o.requires
 CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o.requires
 CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o.requires
+CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o.requires
+CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o.requires
+CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o.requires
+CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o.requires
+CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o.requires
+CMakeFiles/SFMLDemo.dir/requires: CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o.requires
 
 .PHONY : CMakeFiles/SFMLDemo.dir/requires
 
@@ -302,6 +464,6 @@ CMakeFiles/SFMLDemo.dir/clean:
 .PHONY : CMakeFiles/SFMLDemo.dir/clean
 
 CMakeFiles/SFMLDemo.dir/depend:
-	cd /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mhendrix/CLionProjects/LonelyBlade /home/mhendrix/CLionProjects/LonelyBlade /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug /home/mhendrix/CLionProjects/LonelyBlade/cmake-build-debug/CMakeFiles/SFMLDemo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mhendrix/Merge/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mhendrix/Merge /home/mhendrix/Merge /home/mhendrix/Merge/cmake-build-debug /home/mhendrix/Merge/cmake-build-debug /home/mhendrix/Merge/cmake-build-debug/CMakeFiles/SFMLDemo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SFMLDemo.dir/depend
 
