@@ -691,7 +691,7 @@ GameState runScene3A(sf::RenderWindow * window, sf::Clock * sceneClock){
         if (elapsedMain3.asSeconds() >= 1.5 && nextScene3 && enterIslandMan) {
             sceneClock->restart();
             oceanSound.stop();
-            return scene3B;
+            return battle3;
         }
     }
 }

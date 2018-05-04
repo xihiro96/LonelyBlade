@@ -6,149 +6,149 @@
 
 #IncludeRegexTransform: 
 
-/home/mhendrix/Merge/GamePlay/Animation.cpp
+/home/mhendrix/LonelyBlade/GamePlay/Animation.cpp
 Animation.h
-/home/mhendrix/Merge/GamePlay/Animation.h
+/home/mhendrix/LonelyBlade/GamePlay/Animation.h
 
-/home/mhendrix/Merge/GamePlay/Animation.h
+/home/mhendrix/LonelyBlade/GamePlay/Animation.h
 SFML/Graphics.hpp
 -
 vector
 -
 
-/home/mhendrix/Merge/GamePlay/FillBar.h
+/home/mhendrix/LonelyBlade/GamePlay/FillBar.h
 SFML/Graphics.hpp
 -
 iostream
 -
 
-/home/mhendrix/Merge/GamePlay/MoveButton.cpp
+/home/mhendrix/LonelyBlade/GamePlay/MoveButton.cpp
 MoveButton.h
-/home/mhendrix/Merge/GamePlay/MoveButton.h
+/home/mhendrix/LonelyBlade/GamePlay/MoveButton.h
 
-/home/mhendrix/Merge/GamePlay/MoveButton.h
+/home/mhendrix/LonelyBlade/GamePlay/MoveButton.h
 SFML/Graphics.hpp
 -
 
-/home/mhendrix/Merge/GamePlay/MoveMenu.cpp
+/home/mhendrix/LonelyBlade/GamePlay/MoveMenu.cpp
 cmath
 -
 MoveMenu.h
-/home/mhendrix/Merge/GamePlay/MoveMenu.h
+/home/mhendrix/LonelyBlade/GamePlay/MoveMenu.h
 
-/home/mhendrix/Merge/GamePlay/MoveMenu.h
+/home/mhendrix/LonelyBlade/GamePlay/MoveMenu.h
 MoveButton.h
-/home/mhendrix/Merge/GamePlay/MoveButton.h
+/home/mhendrix/LonelyBlade/GamePlay/MoveButton.h
 move.h
-/home/mhendrix/Merge/GamePlay/move.h
+/home/mhendrix/LonelyBlade/GamePlay/move.h
 vector
 -
 
-/home/mhendrix/Merge/GamePlay/RunBattle.cpp
+/home/mhendrix/LonelyBlade/GamePlay/RunBattle.cpp
 RunBattle.h
-/home/mhendrix/Merge/GamePlay/RunBattle.h
+/home/mhendrix/LonelyBlade/GamePlay/RunBattle.h
 ../MainGame.h
-/home/mhendrix/Merge/MainGame.h
+/home/mhendrix/LonelyBlade/MainGame.h
 
-/home/mhendrix/Merge/GamePlay/RunBattle.h
+/home/mhendrix/LonelyBlade/GamePlay/RunBattle.h
 character.h
-/home/mhendrix/Merge/GamePlay/character.h
+/home/mhendrix/LonelyBlade/GamePlay/character.h
 FillBar.h
-/home/mhendrix/Merge/GamePlay/FillBar.h
+/home/mhendrix/LonelyBlade/GamePlay/FillBar.h
 SFML/Graphics.hpp
 -
 cmath
 -
 ../MainGame.h
-/home/mhendrix/Merge/MainGame.h
+/home/mhendrix/LonelyBlade/MainGame.h
 stdlib.h
 -
 
-/home/mhendrix/Merge/GamePlay/character.cpp
+/home/mhendrix/LonelyBlade/GamePlay/character.cpp
 character.h
-/home/mhendrix/Merge/GamePlay/character.h
+/home/mhendrix/LonelyBlade/GamePlay/character.h
 
-/home/mhendrix/Merge/GamePlay/character.h
+/home/mhendrix/LonelyBlade/GamePlay/character.h
 MoveMenu.h
-/home/mhendrix/Merge/GamePlay/MoveMenu.h
+/home/mhendrix/LonelyBlade/GamePlay/MoveMenu.h
 vector
 -
 Animation.h
-/home/mhendrix/Merge/GamePlay/Animation.h
+/home/mhendrix/LonelyBlade/GamePlay/Animation.h
 
-/home/mhendrix/Merge/GamePlay/move.cpp
+/home/mhendrix/LonelyBlade/GamePlay/move.cpp
 move.h
-/home/mhendrix/Merge/GamePlay/move.h
+/home/mhendrix/LonelyBlade/GamePlay/move.h
 
-/home/mhendrix/Merge/GamePlay/move.h
+/home/mhendrix/LonelyBlade/GamePlay/move.h
 string
 -
 SFML/Graphics.hpp
 -
 
-/home/mhendrix/Merge/MainGame.h
+/home/mhendrix/LonelyBlade/MainGame.h
 
-/home/mhendrix/Merge/Menus/Credits.cpp
+/home/mhendrix/LonelyBlade/Menus/Credits.cpp
 Credits.h
-/home/mhendrix/Merge/Menus/Credits.h
+/home/mhendrix/LonelyBlade/Menus/Credits.h
 
-/home/mhendrix/Merge/Menus/Credits.h
+/home/mhendrix/LonelyBlade/Menus/Credits.h
 ../Scenes/sharedScenes.h
-/home/mhendrix/Merge/Scenes/sharedScenes.h
+/home/mhendrix/LonelyBlade/Scenes/sharedScenes.h
 
-/home/mhendrix/Merge/Menus/Menu.cpp
+/home/mhendrix/LonelyBlade/Menus/Menu.cpp
 SFML/Audio/Music.hpp
 -
 Menu.h
-/home/mhendrix/Merge/Menus/Menu.h
+/home/mhendrix/LonelyBlade/Menus/Menu.h
 
-/home/mhendrix/Merge/Menus/Menu.h
+/home/mhendrix/LonelyBlade/Menus/Menu.h
 SFML/Graphics.hpp
 -
 iostream
 -
 ../MainGame.h
-/home/mhendrix/Merge/MainGame.h
+/home/mhendrix/LonelyBlade/MainGame.h
 
-/home/mhendrix/Merge/Scenes/Scene1.cpp
+/home/mhendrix/LonelyBlade/Scenes/Scene1.cpp
 Scene1.h
-/home/mhendrix/Merge/Scenes/Scene1.h
+/home/mhendrix/LonelyBlade/Scenes/Scene1.h
 
-/home/mhendrix/Merge/Scenes/Scene1.h
+/home/mhendrix/LonelyBlade/Scenes/Scene1.h
 sharedScenes.h
-/home/mhendrix/Merge/Scenes/sharedScenes.h
+/home/mhendrix/LonelyBlade/Scenes/sharedScenes.h
 
-/home/mhendrix/Merge/Scenes/Scene2.cpp
+/home/mhendrix/LonelyBlade/Scenes/Scene2.cpp
 Scene2.h
-/home/mhendrix/Merge/Scenes/Scene2.h
+/home/mhendrix/LonelyBlade/Scenes/Scene2.h
 
-/home/mhendrix/Merge/Scenes/Scene2.h
+/home/mhendrix/LonelyBlade/Scenes/Scene2.h
 sharedScenes.h
-/home/mhendrix/Merge/Scenes/sharedScenes.h
+/home/mhendrix/LonelyBlade/Scenes/sharedScenes.h
 
-/home/mhendrix/Merge/Scenes/Scene3.cpp
+/home/mhendrix/LonelyBlade/Scenes/Scene3.cpp
 Scene3.h
-/home/mhendrix/Merge/Scenes/Scene3.h
+/home/mhendrix/LonelyBlade/Scenes/Scene3.h
 
-/home/mhendrix/Merge/Scenes/Scene3.h
+/home/mhendrix/LonelyBlade/Scenes/Scene3.h
 sharedScenes.h
-/home/mhendrix/Merge/Scenes/sharedScenes.h
+/home/mhendrix/LonelyBlade/Scenes/sharedScenes.h
 
-/home/mhendrix/Merge/Scenes/Scene4.cpp
+/home/mhendrix/LonelyBlade/Scenes/Scene4.cpp
 Scene4.h
-/home/mhendrix/Merge/Scenes/Scene4.h
+/home/mhendrix/LonelyBlade/Scenes/Scene4.h
 
-/home/mhendrix/Merge/Scenes/Scene4.h
+/home/mhendrix/LonelyBlade/Scenes/Scene4.h
 sharedScenes.h
-/home/mhendrix/Merge/Scenes/sharedScenes.h
+/home/mhendrix/LonelyBlade/Scenes/sharedScenes.h
 
-/home/mhendrix/Merge/Scenes/shareScenes.cpp
+/home/mhendrix/LonelyBlade/Scenes/shareScenes.cpp
 sharedScenes.h
-/home/mhendrix/Merge/Scenes/sharedScenes.h
+/home/mhendrix/LonelyBlade/Scenes/sharedScenes.h
 
-/home/mhendrix/Merge/Scenes/sharedScenes.h
+/home/mhendrix/LonelyBlade/Scenes/sharedScenes.h
 SFML/Graphics.hpp
-/home/mhendrix/Merge/Scenes/SFML/Graphics.hpp
+/home/mhendrix/LonelyBlade/Scenes/SFML/Graphics.hpp
 SFML/Audio.hpp
 -
 iostream
@@ -156,21 +156,21 @@ iostream
 string
 -
 ../MainGame.h
-/home/mhendrix/Merge/MainGame.h
+/home/mhendrix/LonelyBlade/MainGame.h
 
-/home/mhendrix/Merge/main.cpp
+/home/mhendrix/LonelyBlade/main.cpp
 Scenes/Scene1.h
-/home/mhendrix/Merge/Scenes/Scene1.h
+/home/mhendrix/LonelyBlade/Scenes/Scene1.h
 Scenes/Scene2.h
-/home/mhendrix/Merge/Scenes/Scene2.h
+/home/mhendrix/LonelyBlade/Scenes/Scene2.h
 Scenes/Scene3.h
-/home/mhendrix/Merge/Scenes/Scene3.h
+/home/mhendrix/LonelyBlade/Scenes/Scene3.h
 Scenes/Scene4.h
-/home/mhendrix/Merge/Scenes/Scene4.h
+/home/mhendrix/LonelyBlade/Scenes/Scene4.h
 Menus/Menu.h
-/home/mhendrix/Merge/Menus/Menu.h
+/home/mhendrix/LonelyBlade/Menus/Menu.h
 Menus/Credits.h
-/home/mhendrix/Merge/Menus/Credits.h
+/home/mhendrix/LonelyBlade/Menus/Credits.h
 GamePlay/RunBattle.h
-/home/mhendrix/Merge/GamePlay/RunBattle.h
+/home/mhendrix/LonelyBlade/GamePlay/RunBattle.h
 

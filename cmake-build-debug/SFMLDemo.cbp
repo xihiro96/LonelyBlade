@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/mhendrix/Merge/cmake-build-debug"/>
+				<Option working_dir="/home/mhendrix/LonelyBlade/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/mhendrix/Merge/cmake-build-debug"/>
+				<Option working_dir="/home/mhendrix/LonelyBlade/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/mhendrix/Merge/cmake-build-debug"/>
+				<Option working_dir="/home/mhendrix/LonelyBlade/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SFMLDemo">
-				<Option output="/home/mhendrix/Merge/cmake-build-debug/SFMLDemo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mhendrix/Merge/cmake-build-debug"/>
+				<Option output="/home/mhendrix/LonelyBlade/cmake-build-debug/SFMLDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mhendrix/LonelyBlade/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLDemo"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLDemo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SFMLDemo/fast">
-				<Option output="/home/mhendrix/Merge/cmake-build-debug/SFMLDemo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mhendrix/Merge/cmake-build-debug"/>
+				<Option output="/home/mhendrix/LonelyBlade/cmake-build-debug/SFMLDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mhendrix/LonelyBlade/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,104 +77,104 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLDemo/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/Merge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLDemo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mhendrix/LonelyBlade/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/Animation.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/Animation.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/Animation.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/Animation.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/FillBar.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/FillBar.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/MoveButton.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/MoveButton.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/MoveButton.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/MoveButton.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/MoveMenu.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/MoveMenu.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/MoveMenu.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/MoveMenu.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/RunBattle.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/RunBattle.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/RunBattle.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/RunBattle.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/character.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/character.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/character.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/character.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/move.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/move.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/GamePlay/move.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/GamePlay/move.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/MainGame.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/MainGame.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Menus/Credits.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/Menus/Credits.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Menus/Credits.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/Menus/Credits.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Menus/Menu.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/Menus/Menu.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Menus/Menu.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/Menus/Menu.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/Scene1.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/Scene1.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/Scene1.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/Scene1.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/Scene2.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/Scene2.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/Scene2.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/Scene2.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/Scene3.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/Scene3.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/Scene3.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/Scene3.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/Scene4.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/Scene4.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/Scene4.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/Scene4.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/shareScenes.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/shareScenes.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/Scenes/sharedScenes.h">
+		<Unit filename="/home/mhendrix/LonelyBlade/Scenes/sharedScenes.h">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/main.cpp">
+		<Unit filename="/home/mhendrix/LonelyBlade/main.cpp">
 			<Option target="SFMLDemo"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/CMakeLists.txt">
+		<Unit filename="/home/mhendrix/LonelyBlade/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/mhendrix/Merge/cmake_modules/FindSFML.cmake">
+		<Unit filename="/home/mhendrix/LonelyBlade/cmake_modules/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>

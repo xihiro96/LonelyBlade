@@ -8,7 +8,7 @@
 int main() {
     sf::RenderWindow window(sf::VideoMode(1920, 1080), "Lonely Blade IV", sf::Style::Default); //create 1080p window with close button
     window.setVerticalSyncEnabled(true); //game will update according to graphics card settings
-    GameState gameState = playGame;
+    GameState gameState = battle1;
     sf::Clock sceneClock;
     Menu menu(window.getSize().x, window.getSize().y);
     bool runningGame = true;
@@ -16,15 +16,16 @@ int main() {
     while(runningGame) {
 
         switch (gameState) {
-            case playGame:
-                runBattle1(&window);
-                break;
             case mainMenu:
                 gameState = menu.runMenu(menu, &window);
                 break;
             case scene1A:
                 sceneClock.restart();
                 gameState = runScene1(&window, &sceneClock);
+                break;
+            case battle1:
+                resetBattle();
+                gameState = runBattle1(&window);
                 break;
             case scene1B:
                 sceneClock.restart();
@@ -34,6 +35,11 @@ int main() {
                 sceneClock.restart();
                 gameState = runScene2A(&window, &sceneClock);
                 break;
+            case battle2:
+                resetBattle();
+                //std::cout << "Running" << std::endl;
+                gameState = runBattle2(&window);
+                break;
             case scene2B:
                 sceneClock.restart();
                 gameState = runScene2B(&window, &sceneClock);
@@ -42,6 +48,10 @@ int main() {
                 sceneClock.restart();
                 gameState = runScene3A(&window, &sceneClock);
                 break;
+            case battle3:
+                resetBattle();
+                gameState = runBattle3(&window);
+                break;
             case scene3B:
                 sceneClock.restart();
                 gameState = runScene3B(&window, &sceneClock);
@@ -49,6 +59,10 @@ int main() {
             case scene4A:
                 sceneClock.restart();
                 gameState = runScene4A(&window, &sceneClock);
+                break;
+            case battle4:
+                resetBattle();
+                gameState = runBattle4(&window);
                 break;
             case scene4B:
                 sceneClock.restart();

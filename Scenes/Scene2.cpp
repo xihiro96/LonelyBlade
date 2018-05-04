@@ -1189,6 +1189,7 @@ GameState runScene2B(sf::RenderWindow * window, sf::Clock * sceneClock){
         }else if(elapsedMain3.asSeconds() >= .1 && elapsedMain3.asSeconds() < .2 && !strangerRole && !bartenderStart){
             barNoise.play();
             barNoise.setVolume(5);
+            barNoise.setLoop(1);
         }
     }
 }
@@ -1357,7 +1358,7 @@ GameState runScene2A(sf::RenderWindow * window, sf::Clock * sceneClock){
         if (enterPressed > 1 && elapsedMain2.asSeconds() >= 2.6 && newParty && moveOn) {
             sceneClock->restart();
             breakIn.stop();
-            return scene2B;
+            return battle2;
         }
     }
 

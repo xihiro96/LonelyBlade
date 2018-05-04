@@ -17,6 +17,9 @@ enum GameState{
     scene4A,
     scene4B,
     credits,
-    playGame
+    battle1,
+    battle2,
+    battle3,
+    battle4
 };
 #endif //SFMLDEMO_MAINGAME_H

@@ -742,7 +742,7 @@ GameState runScene4A(sf::RenderWindow * window, sf::Clock * sceneClock){
         }
         if (enterPressed > 17) {
             sceneClock->restart();
-            return scene4B;
+            return battle4;
         }
     }
 }

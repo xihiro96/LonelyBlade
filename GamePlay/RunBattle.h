@@ -10,7 +10,11 @@
 #include <cmath>
 #include "../MainGame.h"
 #include <stdlib.h>
+void resetBattle();
 GameState runBattle1(sf::RenderWindow * window);
+GameState runBattle2(sf::RenderWindow * window);
+GameState runBattle3(sf::RenderWindow * window);
+GameState runBattle4(sf::RenderWindow * window);
 float distanceFormula(float, float, float, float);
 float distanceFormula2(float, float, float, float);
 int isHoveringAlly(sf::Vector2i);

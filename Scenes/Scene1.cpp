@@ -1119,7 +1119,7 @@ GameState runScene1(sf::RenderWindow * window, sf::Clock * sceneClock){
         if (enterPressed > 8 && elapsedMain.asSeconds() >= 22.6) {
             sceneClock->restart();
             forestMusic.stop();
-            return scene1B;
+            return battle1;
         }
 
     }
