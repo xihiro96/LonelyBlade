@@ -236,7 +236,7 @@ GameState runBattle1(sf::RenderWindow * window) {
                     lose = false;
                 }
             }
-            lose = true;
+            //lose = true;
             for (int i = 0; i < 3; ++i) {
                 if (enemyteam[i].alive == true) {
                     win = false;
