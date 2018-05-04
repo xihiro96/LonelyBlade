@@ -1,6 +1,5 @@
 //#define _GLIBCXX_USE_CXX11_ABI 0
 #include "RunBattle.h"
-#include "../MainGame.h"
 
 #define CHAR_SELECT_RADIUS 75
 #define CIRCLE_MENU_RADIUS 100
@@ -27,16 +26,10 @@ const int Xoffset = 70;
 const int Ystart = 100;
 const int Ygap = 250;
 
-sf::Color HPFillColor(255,0,0,255);
-sf::Color HPBackColor(100,0,0,255);
-sf::Color MPFillColor(0,0,255,255);
-sf::Color MPBackColor(0,0,100,255);
-
-std::vector<Character> allyteam;
-std::vector<Character> enemyteam;
-
-std::vector<FillBar> HPBars;
-std::vector<FillBar> MPBars;
+const sf::Color HPFillColor(255,0,0,255);
+const sf::Color HPBackColor(100,0,0,255);
+const sf::Color MPFillColor(0,0,255,255);
+const sf::Color MPBackColor(0,0,100,255);
 
 sf::CircleShape playerHighlight;
 sf::RectangleShape turnIndicator;
@@ -50,6 +43,7 @@ float frameSpeed = 15000.0f;
 bool battlePaused = true;
 bool win = false;
 bool lose = false;
+
 void resetBattle(){
     std::cout << "I reset the values" << std::endl;
     win = false;
@@ -58,6 +52,10 @@ void resetBattle(){
 
 }
 GameState runBattle1(sf::RenderWindow * window) {
+    std::vector<Character> allyteam;
+    std::vector<Character> enemyteam;
+    std::vector<FillBar> HPBars;
+    std::vector<FillBar> MPBars;
     sf::Clock clock;
     deltaTime = clock.restart().asSeconds();
 //battle frame vars
@@ -265,14 +263,14 @@ GameState runBattle1(sf::RenderWindow * window) {
 
                 sf::Vector2i mousePos = sf::Mouse::getPosition(*window);
                 if (allySelect > -1) {
-                    allySelect = isHoveringAlly2(allySelect, mousePos);
+                    allySelect = isHoveringAlly2(allySelect, mousePos, &allyteam);
                 }
                 if (enemySelect > -1) {
-                    enemySelect = isHoveringEnemy2(enemySelect, mousePos);
+                    enemySelect = isHoveringEnemy2(enemySelect, mousePos, &enemyteam);
                 }
                 if (allySelect == -1 && enemySelect == -1) {
-                    allySelect = isHoveringAlly(mousePos);
-                    enemySelect = isHoveringEnemy(mousePos);
+                    allySelect = isHoveringAlly(mousePos, &allyteam);
+                    enemySelect = isHoveringEnemy(mousePos, &enemyteam);
                 }
                 moveSelect = -1;
                 float circleCenterX = -1000.0f;
@@ -386,6 +384,10 @@ GameState runBattle1(sf::RenderWindow * window) {
 
 }
 GameState runBattle2(sf::RenderWindow * window) {
+    std::vector<Character> allyteam;
+    std::vector<Character> enemyteam;
+    std::vector<FillBar> HPBars;
+    std::vector<FillBar> MPBars;
     sf::Clock clock;
     deltaTime = clock.restart().asSeconds();
 //battle frame vars
@@ -593,14 +595,14 @@ GameState runBattle2(sf::RenderWindow * window) {
 
                 sf::Vector2i mousePos = sf::Mouse::getPosition(*window);
                 if (allySelect > -1) {
-                    allySelect = isHoveringAlly2(allySelect, mousePos);
+                    allySelect = isHoveringAlly2(allySelect, mousePos, &allyteam);
                 }
                 if (enemySelect > -1) {
-                    enemySelect = isHoveringEnemy2(enemySelect, mousePos);
+                    enemySelect = isHoveringEnemy2(enemySelect, mousePos, &enemyteam);
                 }
                 if (allySelect == -1 && enemySelect == -1) {
-                    allySelect = isHoveringAlly(mousePos);
-                    enemySelect = isHoveringEnemy(mousePos);
+                    allySelect = isHoveringAlly(mousePos, &allyteam);
+                    enemySelect = isHoveringEnemy(mousePos, &enemyteam);
                 }
                 moveSelect = -1;
                 float circleCenterX = -1000.0f;
@@ -716,6 +718,10 @@ GameState runBattle2(sf::RenderWindow * window) {
 
 }
 GameState runBattle3(sf::RenderWindow * window) {
+    std::vector<Character> allyteam;
+    std::vector<Character> enemyteam;
+    std::vector<FillBar> HPBars;
+    std::vector<FillBar> MPBars;
     sf::Clock clock;
     deltaTime = clock.restart().asSeconds();
 //battle frame vars
@@ -923,14 +929,14 @@ GameState runBattle3(sf::RenderWindow * window) {
 
                 sf::Vector2i mousePos = sf::Mouse::getPosition(*window);
                 if (allySelect > -1) {
-                    allySelect = isHoveringAlly2(allySelect, mousePos);
+                    allySelect = isHoveringAlly2(allySelect, mousePos, &allyteam);
                 }
                 if (enemySelect > -1) {
-                    enemySelect = isHoveringEnemy2(enemySelect, mousePos);
+                    enemySelect = isHoveringEnemy2(enemySelect, mousePos, &enemyteam);
                 }
                 if (allySelect == -1 && enemySelect == -1) {
-                    allySelect = isHoveringAlly(mousePos);
-                    enemySelect = isHoveringEnemy(mousePos);
+                    allySelect = isHoveringAlly(mousePos, &allyteam);
+                    enemySelect = isHoveringEnemy(mousePos, &enemyteam);
                 }
                 moveSelect = -1;
                 float circleCenterX = -1000.0f;
@@ -1044,6 +1050,10 @@ GameState runBattle3(sf::RenderWindow * window) {
 
 }
 GameState runBattle4(sf::RenderWindow * window) {
+    std::vector<Character> allyteam;
+    std::vector<Character> enemyteam;
+    std::vector<FillBar> HPBars;
+    std::vector<FillBar> MPBars;
     sf::Clock clock;
     deltaTime = clock.restart().asSeconds();
 //battle frame vars
@@ -1251,14 +1261,14 @@ GameState runBattle4(sf::RenderWindow * window) {
 
                 sf::Vector2i mousePos = sf::Mouse::getPosition(*window);
                 if (allySelect > -1) {
-                    allySelect = isHoveringAlly2(allySelect, mousePos);
+                    allySelect = isHoveringAlly2(allySelect, mousePos, &allyteam);
                 }
                 if (enemySelect > -1) {
-                    enemySelect = isHoveringEnemy2(enemySelect, mousePos);
+                    enemySelect = isHoveringEnemy2(enemySelect, mousePos, &enemyteam);
                 }
                 if (allySelect == -1 && enemySelect == -1) {
-                    allySelect = isHoveringAlly(mousePos);
-                    enemySelect = isHoveringEnemy(mousePos);
+                    allySelect = isHoveringAlly(mousePos, &allyteam);
+                    enemySelect = isHoveringEnemy(mousePos, &enemyteam);
                 }
                 moveSelect = -1;
                 float circleCenterX = -1000.0f;
@@ -1385,11 +1395,11 @@ float vecDistanceFormula2(sf::Vector2f p1, sf::Vector2f p2) {
     return distanceFormula2(p1.x, p2.x, p1.y, p2.y);
 }
 
-int isHoveringAlly(sf::Vector2i mousePos) {
+int isHoveringAlly(sf::Vector2i mousePos, std::vector<Character> * allyteam) {
     sf::Vector2f mousePosF(mousePos.x, mousePos.y);
-    for (int i = 0; i < allyteam.size(); ++i) {
-        if (allyteam[i].alive) {
-            sf::Vector2f allyPosF(allyteam[i].x + allyteam[i].width/2, allyteam[i].y + allyteam[i].height/2);
+    for (int i = 0; i < allyteam->size(); ++i) {
+        if ((*allyteam)[i].alive) {
+            sf::Vector2f allyPosF((*allyteam)[i].x + (*allyteam)[i].width/2, (*allyteam)[i].y + (*allyteam)[i].height/2);
             if (vecDistanceFormula2(mousePosF, allyPosF) < CHAR_SELECT_RADIUS * CHAR_SELECT_RADIUS) {
                 return i;
             }
@@ -1399,20 +1409,20 @@ int isHoveringAlly(sf::Vector2i mousePos) {
     return -1;
 }
 
-int isHoveringAlly2(int allySelected, sf::Vector2i mousePos) {
+int isHoveringAlly2(int allySelected, sf::Vector2i mousePos, std::vector<Character> * allyteam) {
     sf::Vector2f mousePosF(mousePos.x, mousePos.y);
-    sf::Vector2f allyPosF(allyteam[allySelected].x + allyteam[allySelected].width/2, allyteam[allySelected].y + allyteam[allySelected].height/2);
+    sf::Vector2f allyPosF((*allyteam)[allySelected].x + (*allyteam)[allySelected].width/2, (*allyteam)[allySelected].y + (*allyteam)[allySelected].height/2);
     if (vecDistanceFormula2(mousePosF, allyPosF) < CHAR_DESELECT_RADIUS * CHAR_DESELECT_RADIUS) {
         return allySelected;
     }
     return -1;
 }
 
-int isHoveringEnemy(sf::Vector2i mousePos) {
+int isHoveringEnemy(sf::Vector2i mousePos, std::vector<Character> * enemyteam) {
     sf::Vector2f mousePosF(mousePos.x, mousePos.y);
-    for (int i = 0; i < enemyteam.size(); ++i) {
-        if (enemyteam[i].alive) {
-            sf::Vector2f enemyPosF(enemyteam[i].x + enemyteam[i].width/2, enemyteam[i].y + enemyteam[i].height/2);
+    for (int i = 0; i < enemyteam->size(); ++i) {
+        if ((*enemyteam)[i].alive) {
+            sf::Vector2f enemyPosF((*enemyteam)[i].x + (*enemyteam)[i].width/2, (*enemyteam)[i].y + (*enemyteam)[i].height/2);
             if (vecDistanceFormula2(mousePosF, enemyPosF) < CHAR_SELECT_RADIUS * CHAR_SELECT_RADIUS) {
                 return i;
             }
@@ -1421,9 +1431,9 @@ int isHoveringEnemy(sf::Vector2i mousePos) {
     return -1;
 }
 
-int isHoveringEnemy2(int enemySelected, sf::Vector2i mousePos) {
+int isHoveringEnemy2(int enemySelected, sf::Vector2i mousePos, std::vector<Character> * enemyteam) {
     sf::Vector2f mousePosF(mousePos.x, mousePos.y);
-    sf::Vector2f enemyPosF(enemyteam[enemySelected].x + enemyteam[enemySelected].width/2, enemyteam[enemySelected].y + enemyteam[enemySelected].height/2);
+    sf::Vector2f enemyPosF((*enemyteam)[enemySelected].x + (*enemyteam)[enemySelected].width/2, (*enemyteam)[enemySelected].y + (*enemyteam)[enemySelected].height/2);
     if (vecDistanceFormula2(mousePosF, enemyPosF) < CHAR_DESELECT_RADIUS * CHAR_DESELECT_RADIUS) {
         return enemySelected;
     }

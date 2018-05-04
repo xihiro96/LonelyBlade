@@ -12,60 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac96ab6-1823-480d-9c05-f35fafd53797" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/GamePlay/RunBattle.cpp" afterPath="$PROJECT_DIR$/GamePlay/RunBattle.cpp" />
       <change beforePath="$PROJECT_DIR$/GamePlay/RunBattle.h" afterPath="$PROJECT_DIR$/GamePlay/RunBattle.h" />
-      <change beforePath="$PROJECT_DIR$/MainGame.h" afterPath="$PROJECT_DIR$/MainGame.h" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Scene1.cpp" afterPath="$PROJECT_DIR$/Scenes/Scene1.cpp" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Scene2.cpp" afterPath="$PROJECT_DIR$/Scenes/Scene2.cpp" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Scene3.cpp" afterPath="$PROJECT_DIR$/Scenes/Scene3.cpp" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Scene4.cpp" afterPath="$PROJECT_DIR$/Scenes/Scene4.cpp" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/build.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/main.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/main.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/SFMLDemo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/build/SFMLDemo" afterPath="$PROJECT_DIR$/build/SFMLDemo" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/Animation.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/MoveButton.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/MoveMenu.cpp.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/RunBattle.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/character.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/GamePlay/move.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Menus/Credits.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Menus/Menu.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/Scene1.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/Scene2.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/Scene3.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/Scene4.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/Scenes/shareScenes.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFMLDemo.dir/main.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/SFMLDemo" afterPath="$PROJECT_DIR$/cmake-build-debug/SFMLDemo" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SFMLDemo.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/SFMLDemo.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,11 +33,9 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,12 +113,12 @@
       <file leaf-file-name="RunBattle.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GamePlay/RunBattle.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1005">
-              <caret line="394" column="41" lean-forward="true" selection-start-line="394" selection-start-column="41" selection-end-line="394" selection-end-column="41" />
+            <state relative-caret-position="1118">
+              <caret line="1070" column="23" lean-forward="true" selection-start-line="1070" selection-start-column="23" selection-end-line="1070" selection-end-column="23" />
               <folding>
-                <element signature="e#1193#16154#0" expanded="false" />
-                <element signature="e#31183#46144#0" expanded="false" />
-                <element signature="e#46145#61106#0" expanded="false" />
+                <element signature="e#1066#16214#0" expanded="false" />
+                <element signature="e#16215#31429#0" expanded="false" />
+                <element signature="e#31430#46578#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -177,14 +127,22 @@
       <file leaf-file-name="RunBattle.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GamePlay/RunBattle.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="510">
+              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <folding>
+                <element signature="e#99#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>alive</find>
+      <find>allyteam</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,10 +154,10 @@
         <option value="$PROJECT_DIR$/Scenes/Scene1.cpp" />
         <option value="$PROJECT_DIR$/Scenes/Scene3.cpp" />
         <option value="$PROJECT_DIR$/Scenes/Scene4.cpp" />
-        <option value="$PROJECT_DIR$/GamePlay/RunBattle.h" />
         <option value="$PROJECT_DIR$/Scenes/Scene2.cpp" />
-        <option value="$PROJECT_DIR$/GamePlay/RunBattle.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/GamePlay/RunBattle.h" />
+        <option value="$PROJECT_DIR$/GamePlay/RunBattle.cpp" />
       </list>
     </option>
   </component>
@@ -297,12 +255,12 @@
       <updated>1525394414433</updated>
       <workItem from="1525394415572" duration="452000" />
       <workItem from="1525395129648" duration="225000" />
-      <workItem from="1525396921240" duration="2489000" />
+      <workItem from="1525396921240" duration="4131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3166000" />
+    <option name="totallyTimeSpent" value="4808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="-1987" width="2872" height="1988" extended-state="6" />
@@ -343,9 +301,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -354,9 +310,9 @@
         <state relative-caret-position="12478">
           <caret line="367" column="0" lean-forward="true" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
           <folding>
-            <element signature="e#1193#16154#0" expanded="false" />
-            <element signature="e#31183#46144#0" expanded="false" />
-            <element signature="e#46145#61106#0" expanded="false" />
+            <element signature="e#1066#16214#0" expanded="false" />
+            <element signature="e#16215#31429#0" expanded="false" />
+            <element signature="e#31430#46578#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -365,9 +321,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -383,14 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="881">
           <caret line="729" column="35" lean-forward="false" selection-start-line="729" selection-start-column="35" selection-end-line="729" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GamePlay/RunBattle.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -419,24 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainGame.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scenes/Scene2.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
@@ -455,14 +383,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MainGame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GamePlay/RunBattle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="e#99#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GamePlay/RunBattle.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1005">
-          <caret line="394" column="41" lean-forward="true" selection-start-line="394" selection-start-column="41" selection-end-line="394" selection-end-column="41" />
+        <state relative-caret-position="1118">
+          <caret line="1070" column="23" lean-forward="true" selection-start-line="1070" selection-start-column="23" selection-end-line="1070" selection-end-column="23" />
           <folding>
-            <element signature="e#1193#16154#0" expanded="false" />
-            <element signature="e#31183#46144#0" expanded="false" />
-            <element signature="e#46145#61106#0" expanded="false" />
+            <element signature="e#1066#16214#0" expanded="false" />
+            <element signature="e#16215#31429#0" expanded="false" />
+            <element signature="e#31430#46578#0" expanded="false" />
           </folding>
         </state>
       </provider>

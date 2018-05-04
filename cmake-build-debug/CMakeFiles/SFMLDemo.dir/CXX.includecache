@@ -47,8 +47,6 @@ vector
 /home/mhendrix/LonelyBlade/GamePlay/RunBattle.cpp
 RunBattle.h
 /home/mhendrix/LonelyBlade/GamePlay/RunBattle.h
-../MainGame.h
-/home/mhendrix/LonelyBlade/MainGame.h
 
 /home/mhendrix/LonelyBlade/GamePlay/RunBattle.h
 character.h

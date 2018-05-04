@@ -17,10 +17,10 @@ GameState runBattle3(sf::RenderWindow * window);
 GameState runBattle4(sf::RenderWindow * window);
 float distanceFormula(float, float, float, float);
 float distanceFormula2(float, float, float, float);
-int isHoveringAlly(sf::Vector2i);
-int isHoveringAlly2(int, sf::Vector2i);
-int isHoveringEnemy(sf::Vector2i);
-int isHoveringEnemy2(int, sf::Vector2i);
+int isHoveringAlly(sf::Vector2i, std::vector<Character> * allyteam);
+int isHoveringAlly2(int, sf::Vector2i, std::vector<Character> * allyteam);
+int isHoveringEnemy(sf::Vector2i, std::vector<Character> * enemyteam);
+int isHoveringEnemy2(int, sf::Vector2i, std::vector<Character> * enemyteam);
 int isHoveringMove(MoveMenu &, sf::Vector2i);
 void drawPiMenu(sf::CircleShape &, sf::Vector2f);
 #endif //SFMLDEMO_RUNBATTLE_H
